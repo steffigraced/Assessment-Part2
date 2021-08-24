@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+/* global config */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* global styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px;
+
+}
+
+/* Utility Classes */
+.container {
+    margin: auto;
+    max-width: 1200px;
+    overflow: hidden;
+    padding: 0 20px;
+
+    
+}
+
+.text-center {
+    align-items: center;
+    color: black;
+
+}
+
+.text-primary {
+    color: chartreuse;
+    
+}
+
+.bg-light {
+    color: #fff;
+}
+
+.bg-dark {
+    color: black;
+}
+
+.bg-primary {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.l-heading {
+    padding-bottom: 20px;
+    font-size: 3rem;
+}
+
+.m-heading {
+    text-align: center;
+    padding: 3rem 10px;
+    font-size: 2em;
+    color: black;
+
+}
+
+.lead {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.py-1 {
+
+}
+    
+.py-2 {
+}
+.py-3 {
+}
+
+.p-1 {
+    
+}
+.p-2 {
+    float: left;
+}
+.p-3 {
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: chartreuse;
+    padding: 9px 13px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #fff;
+    background: black;
+}
+
+.btn-dark {
+}
+
+.list {
+    list-style: none;
+    display: grid;
+    grid-template-rows: repeat(5,40px);
+    color: black;
+}
+
+.list li {
+    border-bottom: 0.5px dotted;
+    padding: 10px;
+}
+
+/* Navbar */
+#navbar {
+    background: black;
+    overflow: auto;
+    color: white;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+    
+
+}
+#navbar ul li,
+#navbar h1{
+    float: left;
+    padding: 20px;
+}
+#navbar ul li a {
+    display: inline;
+    padding: 10px;
+    color: white;
+}
+
+#navbar ul li a:hover {
+    background: chartreuse;
+    color: white;
+}
+
+/* Showcase */
+#showcase {
+    background: url(../img/main-background.jpg) no-repeat center center/cover;
+    height: 100vh;
+    
+}
+
+#showcase .showcase-content {
+    text-align: center;
+    padding-top: 15rem;
+    color: white;
+    background: rgba(39, 62, 84, 0.4);
+    overflow: hidden;
+    height: 100vh;
+    z-index: 2;
+}
+
+/* Section: What We Do */
+#what .items {
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    float: left;
+    display: flex;
+}
+
+#what .items .item {
+    background:#fdf6f0;
+    color: #333;
+    padding: 0;
+    width: 100%;
+    
+}
+
+#what .items .item i {
+    float: left;
+    margin: 10px 10px;
+    height: 60px;
+    width: 70px;
+    align-items: center;
+    padding: 15px;
+    border-radius: 100%;
+    background-color: chartreuse;
+    background-size: 100vh;
+
+    
+}
+
+/* Section: Who We Are */
+
+#who {
+  display: flex;
+  padding: 0 50px;
+}
+#who div {
+  display: flex;
+  flex-direction: row;
+}
+#who .who-img {
+  display: flex;
+  float: right;
+  height: 50vh;
+}
+#who .who-text {
+  display: flex;
+  flex-direction: column;
+  padding: 0 80px;
+  justify-content: center;
+}
+#who h2, h3, p {
+  padding-bottom: 20px;
+}
+.list {
+  list-style: none;
+  display: grid;
+  grid-template-rows: repeat(5, 40px);    
+}
+#who li {
+  border-bottom: 0.5px dotted;
+  padding: 10px;
+}
+/* Section: Clients */
+#clients .items {
+    background: #fff;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+#clients .items img {
+    width: 50%;
+}
+
+#main-footer{
+    color:black;
+    text-align: center;
+    padding: 20px;
+  }
+  

@@ -1,0 +1,116 @@
+/* Smartphones */
+@media (max-width: 500px) {
+    #section1 {
+        height: 600px;
+    }
+    #showcase {
+        margin-top: 100px;
+        height: 100vh;
+        padding-bottom: 100px;
+    }
+    .logo {
+        display: flex;
+        flex: 7;
+    }
+    #navbar {
+        width: 500px;
+        overflow: hidden;
+        padding-left: 70px;
+        padding-right: 70px;
+        display: flex;
+        flex-flow: row wrap;
+        padding-bottom: 100px;
+    }
+
+    #navbar .text-primary {
+        flex-direction: row;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    #navbar .logo {
+        justify-content: center;
+        padding-right: 50px;
+    }
+    #section1 ul li{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1rem;
+    }
+    #navbar {
+        height: 100px;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    #section1 ul {
+        display: flex;
+        /* flex-direction: row; */
+    }
+
+    /* what we do */
+    #what {
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+        width: 500px;
+        margin: 0;
+        padding: 10px;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+
+    #what .items {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        width: 500px;
+        display: flex;
+        margin-bottom: 50px;
+    }
+    #what p, h3 {
+        text-align: left;
+        justify-content: left;
+    }
+    #what .m-heading {
+        text-align: center;
+        padding-top: 20px;
+    }
+    #who .list {
+        display: flex;
+        flex-direction: column;
+    }
+    #who .who-img {
+        display: none;
+        padding: 0;
+    }
+    #clients .items img {
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        width: 60px;
+        margin: 5px;
+    }
+
+    /* who we  */
+    #who {
+        height: 100vh;
+        padding-top: 20px;
+        display: flex;
+        /* flex-direction: column; */
+        padding-top: 50px;
+        display: flex;
+        padding: 20px 0;
+    }
+    #who p {
+        padding-bottom: 35px;
+    }
+    #clients {
+        display: flex;
+        height: 20vh;
+        padding-top: 10px;
+    }
+}
