@@ -95,7 +95,7 @@ p {
     display: inline-block;
     font-size: 18px;
     color: #fff;
-    background: chartreuse;
+    background: #F45B69;
     padding: 9px 13px;
     border: none;
     cursor: pointer;
@@ -146,7 +146,7 @@ p {
 }
 
 #navbar ul li a:hover {
-    background: chartreuse;
+    background: #F45B69;
     color: white;
 }
 
@@ -193,7 +193,7 @@ p {
     align-items: center;
     padding: 15px;
     border-radius: 100%;
-    background-color: chartreuse;
+    background-color: #F45B69;
     background-size: 100vh;
 
     
